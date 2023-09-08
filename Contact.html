@@ -1,0 +1,84 @@
+<!Doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pimentel Photography</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="C:\Users\Pimen\Desktop\Website\css\font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images\logo.png"></a>
+		<div class="nav-links" id="navlinks">
+			<i class="fa fa-window-close" onclick="hidemenu()"></i>	
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>					
+				<li><a href="Services.html">SERVICES</a></li>
+				<li><a href="Gallery.html">GALLERY</a></li>
+				<li><a href="Price.html">PRICING</a></li>
+				<li><a href="Contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showmenu()"></i>
+	</nav>	
+	<h1>Contact Me!</h1>
+</section>
+<!-------- Contact Me -------->
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94774.5162060062!2d-72.12645901433305!3d42.07097152809411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6a1ef1c20680b%3A0x980c7ac63d58cf11!2sSouthbridge%2C%20MA!5e0!3m2!1sen!2sus!4v1693427473233!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-me">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<span>
+					<h5>I am a mobile Business</h5>
+				</span>
+			</div>
+		</div>
+		<div class="contact-col">
+				<i class="fa fa-Phone"></i>
+				<span>
+					<h5>Cell Phone</h5>
+					<p>Call or Text: 1-774-452-5199<br> Book a appointment!</p>
+				</span>
+			</div>
+			<div class="Email">
+				<i class="fa fa-envelope-o"></i>
+				<span>
+					<h5>Pimentel.Steven97211@outlook.com</h5>
+					<p>Email for question and to<br> Book a appointment!</p>
+				</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!----------- Footer --------------->
+<section class="Footer">
+	<h4>About Me</h4>
+	<p>Hello Everyone my name is Steven Pimentel <br>I am the owner and photographer of<br> Pimentel Photography!</br></p>
+	<p>insert text <br>insert text</p>
+	<div class="icons">
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+	</div>
+	<p>Made With <i class="fa fa-heart-o"></i> By: Steven Pimentel <br>( Owner / Photographer )</p>
+</section>
+<!-------- JavaScript For Toggle Menu -------->
+	<script>
+		var navlinks = document.getElementById("navlinks");
+		function showmenu(){
+			navlinks.style.right = "0";
+		}
+		function hidemenu(){
+			navlinks.style.right = "-200px";}
+	</script>	
+</body>
+</html>

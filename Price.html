@@ -1,0 +1,123 @@
+<!Doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pimentel Photography</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="C:\Users\Pimen\Desktop\Website\css\font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+	<nav>
+		<a href="index.html"><img src="images\logo.png"></a>
+		<div class="nav-links" id="navlinks">
+			<i class="fa fa-window-close" onclick="hidemenu()"></i>	
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>					
+				<li><a href="Services.html">SERVICES</a></li>
+				<li><a href="Gallery.html">GALLERY</a></li>
+				<li><a href="Price.html">PRICING</a></li>
+				<li><a href="Contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showmenu()"></i>
+	</nav>	
+	<h1>Price List</h1>
+</section>
+
+<!-------- Services I Offer -------->
+<section class="Prices">
+	<div class="row">
+		<div class="Services-Prices">
+			<img src="images/house.JPG">
+			<h2>Prices For Services!</h2>
+			<div class="services-right"></div>
+		</div>
+	</div>
+	</section>
+	<section class="Price-range">
+	<h1>Price List For Services I Offer!<br>TRAVEL FEE NOT INCLUDED</h1>
+	<div class="row">
+		<div class="services-col">
+			<h3>Wedding Photos</h3>
+			<p>$25 Hour<br> TRAVEL FEE NOT INCLUDED</p>
+		</div>
+		<div class="services-col">
+			<h3>Graduation Photos</h3>
+			<p>$30 Hour <br> TRAVEL FEE NOT INCLUDED</p>
+		</div>
+		<div class="services-col">
+			<h3>Birthday Photos</h3>
+			<p>$35 Hour <br>TRAVEL FEE NOT INCLUDED</p>
+		</div>
+		<div class="services-col">
+			<h3>Senior Photos</h3>
+			<p>$25 Hour<br> TRAVEL FEE NOT INCLUDED</p>
+		</div>
+		<div class="services-col">
+			<h3>Landscape Photos</h3>
+			<p>$15 Each</p>
+		</div>
+	</div>
+</section>
+
+<!----------- comment --------------->
+<section>
+<div class="comment-box">
+	<h3>Leave A Comment</h3>
+	<form class="comment-form">
+		<input type="text" placeholder="Enter name">
+		<input type="email" placeholder="Enter Email">
+		<textarea  rows="5" placeholder="Your Comment">
+		</textarea>
+		<button type="submit" class="hero-btn red-btn">Post Comment</button>
+	</form>
+</div>
+</section>
+<!----------- Footer --------------->
+<section class="Footer">
+	<h4>About Me</h4>
+	<p>Hello Everyone my name is Steven Pimentel <br>I am the owner and photographer of<br> Pimentel Photography!</br></p>
+	<p>insert text <br>insert text</p>
+	<div class="icons">
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+	</div>
+	<p>Made With <i class="fa fa-heart-o"></i> By: Steven Pimentel <br>( Owner / Photographer )</p>
+</section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script>
+		var navlinks = document.getElementById("navlinks");
+		function showmenu(){
+			navlinks.style.right = "0";
+		}
+		function hidemenu(){
+			navlinks.style.right = "-200px";}
+	</script>	
+</body>
+</html>
